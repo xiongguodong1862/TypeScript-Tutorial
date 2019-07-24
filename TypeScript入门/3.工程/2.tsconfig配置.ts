@@ -1,5 +1,5 @@
 const tsconfig = {
-  //编译选项
+  //部分编译选项  具体见：https://www.tslang.cn/docs/handbook/compiler-options.html
   "compilerOptions": {
     "module": "commonjs",//使用commonjs模块编译
     "noImplicitAny": true,//在表达式和声明上有隐含的any类型时报错
@@ -12,7 +12,7 @@ const tsconfig = {
     "allowJs":true,//是否允许编译js文件
     "checkJs":true,//在.js文件中报告错误，只有当 allowJs设置为true的时候起效
     "declaration":true,//是否生成相应的 .d.ts 声明文件
-    "declarationDir":'../declare',//指定生成的声明文件 .d.ts 的输出路径
+    "declarationDir":'../declare',//指定生成的声明文件的输出路径
   },
   "files":[
     "core.ts",
@@ -38,4 +38,4 @@ const tsconfig = {
     "node_modules",
     "**/*.spec.ts"
   ]
-}
+};

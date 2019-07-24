@@ -21,3 +21,24 @@ https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tutorials/R
 可以对照着上面那页的demo和我的注释进行对比
 
 - 希望可以给同样为初学者的你一点点提示，算是抛砖引玉了。
+
+
+- 克隆项目
+```
+git clone https://github.com/dogXgod/TypeScript-Tutorial.git
+```
+
+- 进入react+redux+ts的demo，ts-project
+```
+cd ts-project
+```
+
+- 下载依赖
+```
+yarn
+```
+
+- 启动项目
+```
+yarn start
+```
